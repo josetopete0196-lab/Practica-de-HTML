@@ -7,27 +7,27 @@
 </head>
 <body>
     <h1> Formulario de horoscopos</h1>
-    <form action="recibir.php"></form>
+    <form action="recibir.php" method="POST">
     <p>Nombre</p>
     <labelfor="Nombre"></label>
-    <input type="text">
+    <input type="text" name="nombre">
 
     <br>
     <br>
     <p>Correo</p>
     <label for="Correo"></label>
-    <input type="email">
+    <input type="email" name="correo">
 
     <br>
     <br>
     <p>Fecha de nacimiento</p>
     <label for="Fecha"></label>
-    <input type="date">
+    <input type="date" name="fecha_de_nacimiento">
 
     <br>
     <br>
     <button type="submit">Enviar</button>
-
+    </form>
 
 </body>
 </html>
